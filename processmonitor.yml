@@ -1,0 +1,6 @@
+process:
+  - name: "atom.exe"
+    count: 1
+
+  - name: "chrome.exe"
+    count: 2
