@@ -1,0 +1,16 @@
+[package]
+name = "ProcessMonitor"
+version = "0.1.0"
+authors = ["Marco Gazzin <gazzin.marco@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo ="0.15.3"
+clap = "2.33.3"
+serde = { version = "1.0.118", features = ["derive"] }
+serde_yaml = "0.8.14"
+slack-hook = "0.7"
+log = "0.4.0"
+env_logger = "0.8.2"
